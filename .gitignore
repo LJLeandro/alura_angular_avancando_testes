@@ -6,11 +6,10 @@
 /out-tsc
 # Only exists if Bazel was run
 /bazel-out
+/.angular
 
 # dependencies
 /node_modules
-/.angular
-package-lock.json
 
 # profiling files
 chrome-profiler-events*.json
@@ -46,5 +45,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-
-a
